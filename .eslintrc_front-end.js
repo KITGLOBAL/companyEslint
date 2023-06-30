@@ -30,7 +30,8 @@ module.exports = {
     'prettier/prettier': ['error', { endOfLine: 'auto' }],
     'react-native/no-inline-styles': 'error',
     'react/self-closing-comp': 'error',
-
     'react-hooks/exhaustive-deps': 'off',
+    'multiline-ternary': ['error', 'always-multiline'],
+    'no-nested-ternary': 'error',
   },
-}
+};
